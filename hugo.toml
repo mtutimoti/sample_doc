@@ -36,14 +36,14 @@ defaultContentLanguageInSubdir = true
     # description = "put your description"
     description = "Welcome Kakip World!"
     # github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
-    github_repository = "https://www.kakip.ai/"
+    github_repository = "https://github.com/mtutimoti/kakip_techdoc.git"
     version = "0.0.1"
 
     # Documentation repository section
     # documentation repository (set edit link to documentation repository)
-    github_doc_repository = "https://github.com/thingsym/hugo-theme-techdoc"
-    github_doc_repository_path = ""
-    github_doc_repository_branch = "master"
+    # github_doc_repository = "https://github.com/thingsym/hugo-theme-techdoc"
+    # github_doc_repository_path = ""
+    # github_doc_repository_branch = "master"
 
     # Analytic section
     google_analytics_id = "" # Your Google Analytics tracking id
