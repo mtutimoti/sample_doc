@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 Design and specifications on Kakip Techdoc</title>
+    <link>http://localhost:1313/en/3/</link>
+    <description>Recent content in 3 Design and specifications on Kakip Techdoc</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.1 GPIO</title>
+      <link>http://localhost:1313/en/3/3-1/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/3/3-1/</guid>
+      <description>GPIO stands for General-Purpose Input/Output.&#xA;It’s a set of programmable pins that you can use to connect and control various electronic components.&#xA;You can set each pin to either read signals (input) from things like buttons and sensors or send signals (output) to things like LEDs and motors.&#xA;This lets you interact with and control the physical world using code!&#xA;Note: WARNING - GPIOs are 3.3V tolerant, using higher voltages WILL damage the processor!</description>
+    </item>
+    <item>
+      <title>3.2 CSI</title>
+      <link>http://localhost:1313/en/3/3-2/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/3/3-2/</guid>
+      <description> Pin Name 1 GND 2 DATA0_N 3 DATA0_P 4 GND 5 DATA1_N 6 DATA1_P 7 GND 8 CLOCK_N 9 CLOCK_P 10 GND 11 DATA2_N 12 DATA2_P 13 GND 14 DATA3_N 15 DATA3_P 16 GND 17 GPIO0 18 GPIO1 19 GND 20 SCL 21 SDA 22 3.3V </description>
+    </item>
+    <item>
+      <title>3.3 DSI</title>
+      <link>http://localhost:1313/en/3/3-3/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/3/3-3/</guid>
+      <description> Pin Name 1 GND 2 DATA0_N 3 DATA0_P 4 GND 5 DATA1_N 6 DATA1_P 7 GND 8 CLOCK_N 9 CLOCK_P 10 GND 11 DATA2_N 12 DATA2_P 13 GND 14 DATA3_N 15 DATA3_P 16 GND 17 GPIO0 18 GPIO1 19 GND 20 SCL 21 SDA 22 3.3V </description>
+    </item>
+    <item>
+      <title>3.4 PCIe</title>
+      <link>http://localhost:1313/en/3/3-4/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/3/3-4/</guid>
+      <description>Kakip supports a PCI-Express x1 interface which enables data rates of up to 1GB/s for high speed expansion.&#xA;This enables it to take advantage of standard PC NVMe drives which offer exponentially higher random and sequential read/write speeds as well as improved endurance over SD cards or traditional eMMC storage.&#xA;Pin Name 1 5V 2 5V 3 GND 4 REFCLKp 5 REFCLKn 6 GND 7 PERp0 8 PERn0 9 GND 10 PETp0 11 PETn0 12 GND 13 SMDAT 14 SMCLK 15 CLKREQ# 16 PERST# </description>
+    </item>
+  </channel>
+</rss>

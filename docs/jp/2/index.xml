@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 はじめる前に on Kakip 技術ドキュメント</title>
+    <link>http://localhost:1313/jp/2/</link>
+    <description>Recent content in 2 はじめる前に on Kakip 技術ドキュメント</description>
+    <generator>Hugo</generator>
+    <language>jp-JP</language>
+    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/jp/2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2.1 Boot Media</title>
+      <link>http://localhost:1313/jp/2/2-1/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jp/2/2-1/</guid>
+      <description>boot mediaをhttps://www.****からダウンロードし、Balena Etcherを使用し下記手順ででSDカードに書き込みます。 1. ダ</description>
+    </item>
+    <item>
+      <title>2.2 供給電源</title>
+      <link>http://localhost:1313/jp/2/2-2/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jp/2/2-2/</guid>
+      <description>Kakipに供給する電源には5Vで3A以上の供給能力のあるACアダプターを使用してください。</description>
+    </item>
+    <item>
+      <title>2.3 SBCとの接続</title>
+      <link>http://localhost:1313/jp/2/2-3/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jp/2/2-3/</guid>
+      <description>KakipにはUSB Type-Cポートが一つしかありません。初回のセットアップでは専用電源を使用し以下の手順で立ち上げてください。 1. DSIデ</description>
+    </item>
+  </channel>
+</rss>

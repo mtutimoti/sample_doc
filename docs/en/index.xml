@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kakip on Kakip Techdoc</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content in Kakip on Kakip Techdoc</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 29 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1.1 Overview</title>
+      <link>http://localhost:1313/en/1/1-1/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/1/1-1/</guid>
+      <description>Kakip is based on the Renesas RZ/V2H processor. It features a quad-core Cortex-A55 CPU subsystem at 1.1GHz for system control, Cortex-R8 Dual subsystem for low-latency I/O and control, Coretx-M33, with 80TOPS AI Accelerator, DRP-AI3 and dynamically reconfigurable processor(DRP).</description>
+    </item>
+    <item>
+      <title>2.1 Boot Media</title>
+      <link>http://localhost:1313/en/2/2-1/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/2/2-1/</guid>
+      <description>Download the boot media from https://www.**** and flash it on a micro SD Card using using Balena Etcher following these steps:&#xA;1. Select downloaded boot media 2. Select SD Card 3. Flash! Once flashed, you can insert the SD card into your Kakip.</description>
+    </item>
+    <item>
+      <title>3.1 GPIO</title>
+      <link>http://localhost:1313/en/3/3-1/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/3/3-1/</guid>
+      <description>GPIO stands for General-Purpose Input/Output.&#xA;It’s a set of programmable pins that you can use to connect and control various electronic components.&#xA;You can set each pin to either read signals (input) from things like buttons and sensors or send signals (output) to things like LEDs and motors.&#xA;This lets you interact with and control the physical world using code!&#xA;Note: WARNING - GPIOs are 3.3V tolerant, using higher voltages WILL damage the processor!</description>
+    </item>
+    <item>
+      <title>1.2 Features</title>
+      <link>http://localhost:1313/en/1/1-2/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/1/1-2/</guid>
+      <description>CPU: Cortex-A55 Quad 1.1GHz, Cortex-R8 Dual 800MHz, Cortex-M33 200MHz NPU: DRP-AI3 (INT8) / DRP (STP4) AI performance: up to 80TOPS (sparse) I/O controller: - GPU: Mali-G31 Memory: LPDDR4 1333MHz (2GByte, 4GByte, 8GByte) RTC: built-in, powered from external battery Ethernet: Gigabit Ethernet Camera In: MIPI-CSI 4Lane x 4 (22pin/0.5mm) Display Out: MIPI-DSI 4Lane x 1 (22pin/0.5mm) HDMI: - DP: - Audio: - ISP: Mali-C55 (option) PCIe: PCIe 3.0 x 1 USB: Type A x 2 (USB 3.</description>
+    </item>
+    <item>
+      <title>2.2 Power Supply</title>
+      <link>http://localhost:1313/en/2/2-2/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/2/2-2/</guid>
+      <description>To power the board you can either connect it to a dedicated power supply like a mobile charger or a wall adapter that can provide 5V ≥ 3A.</description>
+    </item>
+    <item>
+      <title>3.2 CSI</title>
+      <link>http://localhost:1313/en/3/3-2/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/3/3-2/</guid>
+      <description> Pin Name 1 GND 2 DATA0_N 3 DATA0_P 4 GND 5 DATA1_N 6 DATA1_P 7 GND 8 CLOCK_N 9 CLOCK_P 10 GND 11 DATA2_N 12 DATA2_P 13 GND 14 DATA3_N 15 DATA3_P 16 GND 17 GPIO0 18 GPIO1 19 GND 20 SCL 21 SDA 22 3.3V </description>
+    </item>
+    <item>
+      <title>1.3 Mechanical Specifications</title>
+      <link>http://localhost:1313/en/1/1-3/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/1/1-3/</guid>
+      <description> Dimansion: L89 mm x W58 mm x H20 mm Weight: </description>
+    </item>
+    <item>
+      <title>2.3 Board connection</title>
+      <link>http://localhost:1313/en/2/2-3/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/2/2-3/</guid>
+      <description>There is only one USB type-C port on board, if you choose to use a dedicated power supply for first time setup, you may access the board via one of the following methods:&#xA;1. Connection to DSI display, Keyboard and Mouse 2. Connect the board directly to your PC or Laptop using a USB type-C cable. 3. Ethernet network connection </description>
+    </item>
+    <item>
+      <title>3.3 DSI</title>
+      <link>http://localhost:1313/en/3/3-3/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/3/3-3/</guid>
+      <description> Pin Name 1 GND 2 DATA0_N 3 DATA0_P 4 GND 5 DATA1_N 6 DATA1_P 7 GND 8 CLOCK_N 9 CLOCK_P 10 GND 11 DATA2_N 12 DATA2_P 13 GND 14 DATA3_N 15 DATA3_P 16 GND 17 GPIO0 18 GPIO1 19 GND 20 SCL 21 SDA 22 3.3V </description>
+    </item>
+    <item>
+      <title>3.4 PCIe</title>
+      <link>http://localhost:1313/en/3/3-4/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/3/3-4/</guid>
+      <description>Kakip supports a PCI-Express x1 interface which enables data rates of up to 1GB/s for high speed expansion.&#xA;This enables it to take advantage of standard PC NVMe drives which offer exponentially higher random and sequential read/write speeds as well as improved endurance over SD cards or traditional eMMC storage.&#xA;Pin Name 1 5V 2 5V 3 GND 4 REFCLKp 5 REFCLKn 6 GND 7 PERp0 8 PERn0 9 GND 10 PETp0 11 PETn0 12 GND 13 SMDAT 14 SMCLK 15 CLKREQ# 16 PERST# </description>
+    </item>
+    <item>
+      <title>About Kakip</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description>Why we developed Kakip. There have been several &amp;ldquo;AI booms&amp;rdquo; in the past, but both hardware and software for advanced processing were not yet ready for practical use. Now that the global Internet environment has improved and hardware performance has evolved dramatically due to the high integration of IC chips, AI processing has begun to be implemented in society at a different pace than in the past. In such a situation, one of the challenges is to make robots intelligent, and edge AI processing (especially image processing) is important for robots to operate autonomously in the field.</description>
+    </item>
+  </channel>
+</rss>

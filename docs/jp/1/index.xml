@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 紹介 on Kakip 技術ドキュメント</title>
+    <link>http://localhost:1313/jp/1/</link>
+    <description>Recent content in 1 紹介 on Kakip 技術ドキュメント</description>
+    <generator>Hugo</generator>
+    <language>jp-JP</language>
+    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/jp/1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1.1 概要</title>
+      <link>http://localhost:1313/jp/1/1-1/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jp/1/1-1/</guid>
+      <description>新世代AI-MPU Renesas RZ/V2Hを搭載するSingle Board Computer「Kakip（カキピー）」は、強力なNPU「DRP-AI3」搭載によ</description>
+    </item>
+    <item>
+      <title>1.2 機能</title>
+      <link>http://localhost:1313/jp/1/1-2/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jp/1/1-2/</guid>
+      <description>CPU: Cortex-A55 Quad 1.1GHz, Cortex-R8 Dual 800MHz, Cortex-M33 200MHz NPU: DRP-AI3 (INT8) / DRP (STP4) AI performance: up to 80TOPS (sparse) I/O controller: - GPU: Mali-G31 Memory: LPDDR4 1333MHz (2GByte, 4GByte, 8GByte) RTC: built-in, powered from external battery Ethernet: Gigabit Ethernet Camera In: MIPI-CSI 4Lane x 4 (22pin/0.5mm) Display Out: MIPI-DSI 4Lane x 1 (22pin/0.5mm) HDMI: - DP: - Audio: - ISP: Mali-C55 (option) PCIe: PCIe 3.0 x 1 USB:</description>
+    </item>
+    <item>
+      <title>1.3 機械的仕様</title>
+      <link>http://localhost:1313/jp/1/1-3/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jp/1/1-3/</guid>
+      <description>サイズ: L89 mm x W58 mm x H20 mm 質量:</description>
+    </item>
+  </channel>
+</rss>
