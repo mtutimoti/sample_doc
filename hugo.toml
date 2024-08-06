@@ -96,7 +96,7 @@ defaultContentLanguageInSubdir = true
       url = "/"
       weight = 1
       identifier = 'home'
-      pre = "<i class='fa fa-heart'></i>&nbsp;"
+      pre = "<i class='fa fa-home'></i>&nbsp;"
 
   [[menu.main]]
       name = ""
