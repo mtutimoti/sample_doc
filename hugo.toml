@@ -92,12 +92,23 @@ defaultContentLanguageInSubdir = true
 # See https://gohugo.io/content-management/menus/
 [menu]
   [[menu.main]]
-      name = "Home"
+      identifier = "language"
+      name = "language"
       url = "/"
       weight = 1
-      identifier = 'home'
       pre = "<i class='fa fa-home'></i>&nbsp;"
-
+  [[menu.main]]
+      identifier = "Japanese"
+      name = "Japanese"
+      url = "/jp"
+      parent = "language"
+      weight = 1
+  [[menu.main]]
+      identifier = "English"
+      name = "English"
+      url = "/en"
+      parent = "language"
+      weight = 2
   [[menu.main]]
       name = ""
       url = "https://x.com/kakip_yds"
